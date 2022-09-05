@@ -1,0 +1,8 @@
+{
+    "name": "alerrandro/gerador-de-senha",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}
