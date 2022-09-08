@@ -9,8 +9,12 @@ $number = $ger->senhaSimplesNumerica();
 
 $numberletras = $ger->senhaComLetras();
 
+$numberletrasprimeiramaiuscula = $ger->senhaComLetrasEPrimeiraMaiuscula();
 
-echo $number;
-echo PHP_EOL;
-echo $numberletras;
 
+
+// echo $number;
+// echo PHP_EOL;
+// echo $numberletras;
+// echo PHP_EOL;
+echo $numberletrasprimeiramaiuscula;

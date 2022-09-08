@@ -8,4 +8,7 @@ interface InterfaceGerador
 
     public static function senhaComLetras();
 
+    public static function senhaComLetrasEPrimeiraMaiuscula();
+
+
 }

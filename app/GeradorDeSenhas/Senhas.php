@@ -15,4 +15,10 @@ class Senhas implements InterfaceGerador
     {
         return bin2hex(openssl_random_pseudo_bytes(4));
     }
-}
+
+
+    public static function senhaComLetrasEPrimeiraMaiuscula()
+    {
+        return 'A' . bin2hex(openssl_random_pseudo_bytes(4));
+    }
+} 
