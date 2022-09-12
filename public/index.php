@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use App\GeradorDeSenhas\Senhas;
 
@@ -12,10 +12,6 @@ $number = $ger->senhaSimplesNumerica();
 $numberletras = $ger->senhaComLetras();
 
 $numberletrasprimeiramaiuscula = $ger->senhaComLetrasEPrimeiraMaiuscula();
-
-
-
-
 
 // echo $number;
 // echo PHP_EOL;
